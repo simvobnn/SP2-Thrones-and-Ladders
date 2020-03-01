@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'got';
+  src: url("/fonts/Game of Thrones.ttf");
+}
+@font-face {
+  font-family: 'alm';
+  src: url("/fonts/Almendra-Regular.ttf");
+}
+@font-face {
+  font-family: 'almbi';
+  src: url("/fonts/Almendra-BoldItalic.ttf");
+}
+body {
+  background-image: url("/assets/bg@1.25x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+header img {
+  max-width: 320px;
+  max-height: 210px;
+  padding: 20px;
+}
+header h1 {
+  text-align: center;
+  margin: auto auto;
+  font-family: 'got';
+  color: #fff;
+  opacity: 0.75;
+}
+h2 {
+  font-family: 'got';
+  color: #fff;
+  opacity: 0.75;
+  font-size: 1.5rem;
+  padding: 5rem;
+}
+h3 {
+  font-family: 'got';
+  font-size: 1rem;
+}
+h4 {
+  font-family: 'alm';
+}
+h4 span {
+  font-family: 'almbi';
+}
+.card {
+  min-width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-radius: 0;
+}
+.selected {
+  opacity: 0.2;
+}
+.btn {
+  font-family: 'got';
+}
+.btn:hover {
+  color: #fff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 100vw;
+  }
+}
